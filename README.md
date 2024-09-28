@@ -1,7 +1,9 @@
 # BTC-price-change-alert
-Receive an email containing a recent and relevant news article, if the price of BTC changes by +-3%  between yesterday and the day before
+Receive an email containing a recent and relevant news article, if the price of BTC changes by +-3%  between yesterday and the day before.
 
-This program was built using data from several APIs
+If you are a Bitcoin trader, investor or enthusiast, this program permits you to stay up to date with significant changes in the markets, without doing any acticve work. You get live up to date news articles in your inbox.
+
+This program can be hosted on the cloud such that it  runs authomatically everyday at a particular time, using [Python Anywhere](https://www.pythonanywhere.com/).
 
 ## Installation Guide
 ### 1. Clone the Repository
@@ -41,7 +43,8 @@ and add the following to your environmental variables:
 ```bash
 news_apikey=your_newsapi_key
 ```
-
+The smtplib library is used to send emails from python. A receiver email address, sender email address and password are needed.
+For a full tutorial, watch the youtube video: [Youtube](https://www.youtube.com/watch?v=ueqZ7RL8zxM)
 
 ### 4. Run program:
 You can run the application using the following command:
